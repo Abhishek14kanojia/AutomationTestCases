@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Asus/SeleniumProject">
+        <classes>
+            <class name="com.seleniumTesting.ActionsFacebookTest">
+                <methods>
+                    <include name="actionClass_FacebookLoginScreen"/>
+                </methods>
+            </class>
+            <class name="com.seleniumTesting.AmazonTest">
+                <methods>
+                    <include name="amazonTesting"/>
+                    <include name="byNameLocatorTest"/>
+                    <include name="fileUploadTest"/>
+                </methods>
+            </class>
+            <class name="com.seleniumTesting.AutoITFileUpload">
+                <methods>
+                    <include name="fileUploadAutoIT"/>
+                    <include name="fileUploadDemo"/>
+                </methods>
+            </class>
+            <class name="com.seleniumTesting.CapturingScreenShot">
+                <methods>
+                    <include name="captureScreenShop"/>
+                </methods>
+            </class>
+            <class name="com.seleniumTesting.DatePicker">
+                <methods>
+                    <include name="enterDateAndTime"/>
+                </methods>
+            </class>
+            <class name="com.seleniumTesting.DragAndDrop">
+                <methods>
+                    <include name="dragAndDrop"/>
+                </methods>
+            </class>
+            <class name="com.seleniumTesting.FaceBookLoginTest">
+                <methods>
+                    <include name="faceBookLogin_Success"/>
+                    <include name="photoUploadFacebook_AutoIT"/>
+                </methods>
+            </class>
+            <class name="com.seleniumTesting.FacebookTest">
+                <methods>
+                    <include name="facebookWebsite_RedirectOnScreen"/>
+                    <include name="facebookWebsite_CreateNewAccountTest"/>
+                </methods>
+            </class>
+            <class name="com.seleniumTesting.FileUploadRobotTest">
+                <methods>
+                    <include name="uploadFiles"/>
+                </methods>
+            </class>
+            <class name="com.seleniumTesting.FindFrameJsExecutor">
+                <methods>
+                    <include name="findingFrames_UsingJsExecutor"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
